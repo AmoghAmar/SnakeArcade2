@@ -1,0 +1,38 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+
+}
+
+
+body {
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-style: bold black 3px;    
+}
+
+canvas{
+    border: 5px solid;
+    color:black;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: repeat();
+    grid-template-columns: repeat();
+    
+}
+
+#replay{
+    margin-bottom: 15px;
+
+}
+
+h2, li, ul{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
